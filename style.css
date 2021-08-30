@@ -98,6 +98,154 @@ p {
     text-decoration: none;
     text-align: center;
 }
+
+
+    section h2 {
+        text-align: center;
+        font-size: 30px;
+    }
+    .icons a {
+        font-size: 30px;
+        position: relative;
+        top: 250px;
+    }
+    .titles {
+        top: 200px
+    }
+    .fa-twitter-square {
+        left: 50px;
+    }
+    .fa-linkedin-square {
+        top: 150px;
+        left: 250px;
+    }
+    .fa-envelope-square {
+        top: 150px;
+        right: 220px;
+    }
+    .fa-github-square,
+    .fa-twitter-square {
+        bottom: 100px;
+        right: 70px;
+    }
+    .bio {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        left: 350px;
+        text-align: center;
+        width: 50%;
+        line-height: 30px;
+        margin-top: 5em;
+    }
+    .vectors img {
+        padding: 50px;
+        position: relative;
+        width: 20%;
+        height: 50%;
+        transition: 02s ease-in-out;
+        animation: updown 1s infinite;
+    }
+    .vectors img:hover {
+        border: 2px dotted rgb(129, 50, 129);
+        border-radius: 50%;
+    }
+        @keyframes updown {
+        0% { 
+            transform: translateY(0); 
+        }
+        100% { 
+            transform: translateY(-10px); 
+        }
+    }
+    .first {
+        right: 200px;
+        top: 200px;
+    }
+    .second {
+        top: 150px;
+        left: 50px;
+    }
+    .third {
+        top: 40px;
+        left: 120px;
+    }
+    .fourth {
+        top: 150px;
+        left: 250px;
+    }
+    .sixth {
+        left: 100px;
+    }
+    .projects {
+        margin-top: 25em;
+        text-align: center;
+    }
+    .container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .card {
+        border: 5px dotted aquamarine;
+        color:aquamarine;
+        font-size: 20px;
+        margin: 30px;
+        padding: 50px;
+        padding-bottom: 50px;
+        background: rgb(36, 36, 94);
+        transition: 0.5s ease-in-out;
+    }
+    .container .card:hover {
+        transform: scale(1.1);
+    }
+    .card p {
+        display: none;
+    }
+    .contact {
+        margin-top: 25em;
+    }
+    form{
+        background: aquamarine;
+        border:3px solid rgb(129, 50, 129);
+        border-radius: 10px;
+        display: grid;
+        justify-content: center;
+        padding: 20px 0 20px 0;
+        position: relative;
+        left: 50px;
+        width: 50%;
+    }
+    .button{ 
+        font-size: 15px;
+        padding: 10px;
+        background:rgb(36, 36, 94);
+        border-radius: 10px;
+        text-align: center;
+        width: 50%;
+    }
+    
+    .button a:hover {
+        color: rgb(36, 36, 94);
+    }
+    .button:hover {
+        color: rgb(36, 36, 94);
+        background:rgb(129, 50, 129);
+    }
+    .seventh {
+        top: 100px;
+    }
+    .eighth {
+        top: 650px
+    }
+    .ninth {
+        top: 200px;
+        left: 100px
+    }
+    .contact p {
+        color:rgb(36, 36, 94);
+    }
 @keyframes rotate {
     100% {
     transform: rotate(360deg);
@@ -262,7 +410,7 @@ p {
         right: 0;
         top: 5%;
         text-align: center;
-        height: 45%;
+        height: 50%;
         padding: 30px;
         background: rgb(36, 36, 94);
         width: 100%;
