@@ -4,16 +4,12 @@ body {
     background: rgb(29, 31, 58);
     box-sizing: border-box;
     color: aquamarine;
-    font-family: 'VolteRounded';
+    font-family: 'Nunito';
     overflow-x: hidden;
 }
 header {
     display: grid;
     grid-template-columns: repeat(2,1fr);
-}
-h1,
-h2 {
-    font-family: 'VolteRounded';
 }
 nav ul {
     display: flex;
