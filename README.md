@@ -19,8 +19,8 @@ This is my portfolio website
 Users should be able to:
 
 - View the optimal layout for the site depending on their device's screen size - desktop, tablet, and mobile alike.
-- Scroll through the page and view all the design images plastered across the site.
-- Watch the heart icon change to red around the edges on click.
+- Scroll through the page and view all the projects listed on the respective section.
+- Watch the vector icons change sizes and positions on click.
 
 ### My Process
 
