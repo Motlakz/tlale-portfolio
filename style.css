@@ -1,0 +1,437 @@
+@import url(//db.onlinewebfonts.com/c/428912faef6cbf7a2c43c3952c8de813?family=VolteRounded);
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap');
+body {
+    background: rgb(29, 31, 58);
+    box-sizing: border-box;
+    color: aquamarine;
+    font-family: 'VolteRounded';
+    overflow-x: hidden;
+}
+header {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+nav ul {
+    display: flex;
+    flex-direction: row;
+}
+.navbar ul li {
+    font-size: 20px;
+    list-style: none;
+    margin: 20px;
+}
+.navbar ul li a {
+    text-decoration: none;
+    color:rgb(129, 50, 129);
+}
+.navbar ul li a:hover {
+    text-decoration: underline;
+    color: aquamarine;
+}
+.menu-bar {
+        width: 3rem;
+        height: 0.5rem;
+        background-color: rgb(0, 0, 0);
+        cursor: pointer;
+        display: none;
+}
+.myself img {
+    position: relative;
+    left: 100px;
+    top: 50px;
+    background: linear-gradient(to right, aquamarine, rgb(129, 50, 129), aquamarine, rgb(129, 50, 129));
+    padding: 3px;
+    width: 70%;
+    height: 70%;
+    border-radius: 50%;
+}
+.icons a {
+    color: aquamarine;
+}
+.fa,
+.fas {
+    position: relative;
+    border: 2px solid rgb(129, 50, 129);
+    border-radius: 50%; 
+    padding: 15px;
+    animation: rotate 5s infinite;
+}
+.fa-twitter {
+    left: 30px;
+}
+.fa-linkedin-square {
+    top: 150px;
+    left: 120px;
+}
+.fa-github {
+    left: 30px;
+}
+.fa-facebook-square {
+    top: 300px;
+    left: 150px;
+}
+.fa-envelope-square {
+    top: 180px;
+    right: 110px;
+}
+
+.titles {
+    background: linear-gradient(aquamarine, rgb(129, 50, 129));
+    position: relative;
+    top: 110px;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+h2 {
+    color: rgb(129, 50, 129);
+}
+p {
+    font-family: 'Nunito';
+}
+.card img {
+    width: 100%;
+    height: 100%;
+}
+.button {
+    color: rgb(129, 50, 129);
+    text-decoration: none;
+    text-align: center;
+}
+@keyframes rotate {
+    100% {
+    transform: rotate(360deg);
+    }
+}
+
+@media screen and (min-width: 1040px) {
+    section h2 {
+        text-align: center;
+        font-size: 30px;
+    }
+    .icons a {
+        font-size: 30px;
+        position: relative;
+        top: 250px;
+    }
+    .titles {
+        top: 200px
+    }
+    .fa-twitter-square {
+        left: 50px;
+    }
+    .fa-linkedin-square {
+        top: 150px;
+        left: 250px;
+    }
+    .fa-envelope-square {
+        top: 150px;
+        right: 220px;
+    }
+    .fa-github-square,
+    .fa-twitter-square {
+        bottom: 100px;
+        right: 70px;
+    }
+    .bio {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        left: 350px;
+        text-align: center;
+        width: 50%;
+        line-height: 30px;
+        margin-top: 5em;
+    }
+    .vectors img {
+        padding: 50px;
+        position: relative;
+        width: 20%;
+        height: 50%;
+        transition: 02s ease-in-out;
+        animation: updown 1s infinite;
+    }
+    .vectors img:hover {
+        border: 2px dotted rgb(129, 50, 129);
+        border-radius: 50%;
+    }
+        @keyframes updown {
+        0% { 
+            transform: translateY(0); 
+        }
+        100% { 
+            transform: translateY(-10px); 
+        }
+    }
+    .first {
+        right: 200px;
+        top: 200px;
+    }
+    .second {
+        top: 150px;
+        left: 50px
+    }
+    .third {
+        top: 40px;
+        left: 120px;
+    }
+    .fourth {
+        top: 150px;
+        left: 250px;
+    }
+    .sixth {
+        left: 100px;
+    }
+    .projects {
+        margin-top: 25em;
+        text-align: center;
+    }
+    .container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .card {
+        border: 5px dotted aquamarine;
+        color:aquamarine;
+        font-size: 20px;
+        margin: 30px;
+        padding: 50px;
+        padding-bottom: 50px;
+        background: rgb(36, 36, 94);
+        transition: 0.5s ease-in-out;
+    }
+    .container .card:hover {
+        transform: scale(1.1);
+    }
+    .card p {
+        display: none;
+    }
+    .contact {
+        margin-top: 25em;
+    }
+    form{
+        background: aquamarine;
+        border:3px solid rgb(129, 50, 129);
+        border-radius: 10px;
+        display: grid;
+        justify-content: center;
+        padding: 20px 0 20px 0;
+        position: relative;
+        left: 50px;
+        width: 50%;
+    }
+    .button{ 
+        font-size: 15px;
+        padding: 10px;
+        background:rgb(36, 36, 94);
+        border-radius: 10px;
+        text-align: center;
+        width: 50%;
+    }
+    
+    .button a:hover {
+        color: rgb(36, 36, 94);
+    }
+    .button:hover {
+        color: rgb(36, 36, 94);
+        background:rgb(129, 50, 129);
+    }
+    .seventh {
+        top: 100px;
+    }
+    .eighth {
+        top: 650px
+    }
+    .ninth {
+        top: 200px;
+        left: 100px
+    }
+    .contact p {
+        color:rgb(36, 36, 94);
+    }
+}
+@media screen and (max-width: 765px) {
+    nav {
+        flex-direction: column;
+    }
+    nav ul {
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 5%;
+        text-align: center;
+        height: 45%;
+        padding: 30px;
+        background: rgb(36, 36, 94);
+        width: 100%;
+        z-index: 10;
+        transform: translateY(-500px);
+    }
+    .navbar ul li {
+        font-size: 15px;
+        position: relative;
+        left: 25px;
+        padding: 20px;
+    }
+    .myself img {
+        position: absolute;
+        left: 25%;
+        top: 20%;
+        background: linear-gradient(to right, aquamarine, rgb(129, 50, 129), aquamarine, rgb(129, 50, 129));
+        padding: 3px;
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+    }
+    .icons {
+        position: absolute;
+        left: 3%;
+    }
+    .fa,
+    .fas {
+        position: relative;
+        border: 2px solid rgb(129, 50, 129);
+        border-radius: 50%; 
+        padding: 15px;
+        animation: rotate 5s infinite;
+    }
+    .fa-twitter-square {
+        top: 15px;
+        left: 50px
+    }
+    .fa-linkedin-square {
+        top: 150px;
+        left: 170px;
+    }
+    .fa-github-square {
+        left: 30px;
+        top: 20px;
+    }
+    .fa-facebook-square {
+        top: 310px;
+        left: 150px;
+    }
+    .fa-envelope-square {
+        top: 180px;
+        right: 90px;
+    }
+    .menu-bar {
+        background-color: rgb(129, 50, 129);
+        display: block;
+        position: absolute;
+        height: 0.5rem;
+        margin-left: 10px;
+        margin-right: 1rem;
+        margin-top: 0.5rem;
+        border: 1px solid aquamarine;
+        transition: 1s ease;
+        z-index: 10;
+    }
+    .open {
+        transform: translateX(0);
+        transition: 1s ease;
+    }
+    .open-menu-bar {
+        transform: rotate(90deg);
+    }
+    .titles {
+        top: 25em;
+        right: 100px
+    }
+    header {
+        height: 100%;
+        margin-top: 50px;
+    }
+    .bio {
+        width: 80%;
+        margin-top: 35em;
+    }
+    .vectors img {
+        position: relative;
+        width: 20%;
+        height: 50%;
+        transition: 0.5s ease;
+    }
+    .vectors img:hover {
+        transform: scale(1.3);
+    }
+    .second {
+        bottom: 50px;
+        left: 50px
+    }
+    .third {
+        top: 50px;
+        left: 80px;
+    }
+    .fourth {
+        top: 150px;
+        left: 135px;
+    }
+    .sixth {
+        left: 100px;
+    }
+    .projects {
+        margin-top: 200px;
+    }
+    .card {
+        background:rgb(36, 36, 94);
+        border: 2px dashed aquamarine;
+        padding: 20px;
+        margin: 25px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        transition: 0.5s ease-in-out;
+    }
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+    .container .card:hover {
+        transform: scale(1.1);
+    }
+    .contact .vectors img {
+        display: flex;
+        padding: 30px;
+    }
+    form{
+        background: aquamarine;
+        border:3px solid rgb(129, 50, 129);
+        border-radius: 10px;
+        display: grid;
+        justify-content: center;
+        padding: 20px 0 20px 0;
+    }
+    .button{ 
+        font-size: 15px;
+        padding: 10px;
+        background:rgb(36, 36, 94);
+        border-radius: 10px;
+        color: rgb(129, 50, 129);
+        text-align: center;
+        width: 50%;
+    }
+    .button:hover {
+        color: rgb(36, 36, 94);
+        background:rgb(129, 50, 129);
+    }
+    .eighth {
+        left: 100px;
+    }
+    .ninth {
+        left: 200px;
+    }
+    .contact .vectors img {
+        border: 2px dotted rgb(129, 50, 129);
+        padding: 10px;
+        margin: 20px;
+    }
+    .contact .vectors img:hover {
+        border-radius: 50%;
+    }
+    .contact p {
+        color:rgb(36, 36, 94);
+    }
+}
